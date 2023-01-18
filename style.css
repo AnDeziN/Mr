@@ -14,7 +14,7 @@ body{
 }
 .info-img{
     position: absolute;
-    width: 35%;
+    width: 30px;
     left: 50%;
     border-radius: 0%;
     background: rgb(15, 85, 191);
@@ -22,17 +22,18 @@ body{
 }
 .info-img:hover{
  
-    border: rgb(16, 52, 230) 10px double;
+    border: rgb(230, 16, 16) 10px double;
     transition: 1s ease-out;
 }
 h2{
     position: relative;
     font-style: normal;
-    font-weight: 99999px;
-    font-size: 48px;
+    font-weight: 999999px;
+    font-size: 70px;
     line-height: 56px;
     text-align: center;
     color: #575757;
+    top: 60%;
 }
  
 header{
@@ -284,7 +285,7 @@ main{
 footer{
     position: relative;
     width: 100%;
-    top: 300px;
+    top: 500px;
     height: 700px;
     left: 0;
     background: #200772;
@@ -311,8 +312,8 @@ h4{
     color: #ff2a2a;
 }
 .footer-img{
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     margin-right: 3%;
 }
 .logo-img{
